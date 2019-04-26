@@ -17,7 +17,7 @@ services:
       - "26501:26501"
     volumes:
       - zeebe_data:/usr/local/zeebe/bin/data
-      - ./zeebe.cfg.toml:/usr/local/zeebe/conf/zeebe.cfg.toml
+      - ./lib/zeebe.cfg.toml:/usr/local/zeebe/conf/zeebe.cfg.toml
     depends_on:
       - elasticsearch
     networks:
@@ -27,7 +27,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./application.yml:/usr/local/operate/config/application.yml
+      - ./lib/application.yml:/usr/local/operate/config/application.yml
     networks:
       - zeebe_network
   elasticsearch:
