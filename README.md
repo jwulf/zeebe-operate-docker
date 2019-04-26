@@ -8,6 +8,13 @@ For more information on using Zeebe and Operate, consult the Quickstart Guide in
 
 The `docker-compose.yml` file in this repository can be used to start a Zeebe 0.17 broker with Operate 1.0.0-RC3, along with the Elasticsearch and Kibana containers that it needs.
 
+The containers expose the following services:
+
+- Zeebe broker - port 26500
+- Operate - web interface http://localhost:8080 (login: demo/demo)
+- ElasticSearch - port 9200
+- Kibana - port 5601
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com)
