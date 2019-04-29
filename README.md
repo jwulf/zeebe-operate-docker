@@ -56,3 +56,9 @@ docker-compose down
 ```
 
 This will stop the containers and remove them.
+
+## Running with Simple Monitor
+
+One thing that Operate doesn't have is inspection of messages. This can be useful when developing and debugging.
+
+The `with-simple-monitor` folder contains a docker-compose file that will start Operate _and_ Simple Monitor. Simple Monitor will be running on [http://localhost:8082](http://localhost:8082).
