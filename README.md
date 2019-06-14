@@ -1,3 +1,6 @@
+Please use the official Zeebe docker configurations: https://github.com/zeebe-io/zeebe-docker-compose
+
+
 # Zeebe + Operate in Docker
 
 [Zeebe](https://zeebe.io) is a workflow engine for micro-services orchestration engine.
